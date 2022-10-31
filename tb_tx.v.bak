@@ -1,0 +1,33 @@
+`timescale 1ns/1ns
+module tb_tx();
+
+wire    clk,rstn,flag;
+wire    [7:0]   data;
+
+initial
+begin
+    clk = 1'b1;
+    rstn <= 1'b0;
+    flag <= 1'b0;
+    #20
+    rstn <= 1'b1;
+    #10
+    flag <= 1'b1;
+    #10
+    flag <= 1'b0
+end
+
+always#10 clk = ~clk;
+
+
+tx
+#(  .MAX_CNT(101))
+tx_0
+(
+    .clk(clk),
+    .rstn(rstn),
+    .data(data),
+    .flag(flag)
+);
+
+endmodule

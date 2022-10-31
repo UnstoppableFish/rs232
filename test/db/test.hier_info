@@ -1,0 +1,8 @@
+|test
+clk => ~NO_FANOUT~
+rstn => ~NO_FANOUT~
+out[0] => ~NO_FANOUT~
+out[1] => ~NO_FANOUT~
+out[2] => ~NO_FANOUT~
+
+

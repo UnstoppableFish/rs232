@@ -1,0 +1,15 @@
+D:/Quartus/work/rs232/test/test.v {1 {vlog -work work -vopt -stats=none D:/Quartus/work/rs232/test/test.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} D:/Quartus/work/rs232/test/tb_test.v {1 {vlog -work work -vopt -stats=none D:/Quartus/work/rs232/test/tb_test.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module tb_test
+
+Top level modules:
+	tb_test
+
+} {} {}}

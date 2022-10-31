@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, D:/Quartus/work/rs232/test/test.v
+source_file = 1, D:/Quartus/work/rs232/test/tb_test.v
+source_file = 1, D:/Quartus/work/rs232/test/stp1.stp
+source_file = 1, D:/Quartus/work/rs232/test/db/test.cbx.xml
+design_name = test
+instance = comp, \clk~input , clk~input, test, 1
+instance = comp, \rstn~input , rstn~input, test, 1
+instance = comp, \out[0]~input , out[0]~input, test, 1
+instance = comp, \out[1]~input , out[1]~input, test, 1
+instance = comp, \out[2]~input , out[2]~input, test, 1

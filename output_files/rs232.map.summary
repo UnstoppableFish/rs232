@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Oct 22 21:22:11 2022
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : rs232
+Top-level Entity Name : top_rs232
+Family : Cyclone IV E
+Total logic elements : 1,027
+    Total combinational functions : 559
+    Dedicated logic registers : 807
+Total registers : 807
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 31,744
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
